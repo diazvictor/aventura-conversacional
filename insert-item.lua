@@ -14,7 +14,6 @@ end
 
 function player:setInventory(name, desc)
     for i,v in ipairs(player.inventory) do
-        print(i)
         id = i + 1
     end
     table.insert(player.inventory, id, {obj = name, desc = desc})
