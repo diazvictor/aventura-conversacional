@@ -1,1 +1,1 @@
-# aventura-conversacional
+A simple text adventure in lua
